@@ -1,0 +1,127 @@
+/**
+* @name Eingengrau
+* @version 0.0.2
+* @description A dark, minimal b&w theme for BetterDiscord.
+* @author kiosion
+* @authorId 346430063006187531
+* @source https://github.com/kiosion/eingengrau
+* @invite kio
+*/
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+:root {
+    /* change to 'unset' from 'none' to show elements */
+    /* scrollbars */
+    --scrollbars: none;
+    /* profile notes */
+    --notes: none;
+    /* direct message box */
+    --message: none;
+    /* fonts */
+    --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    /* border radius' */
+    --border-radius-1: 10px;
+    --border-radius-2: 6px;
+    /* shadow/glow intensities */
+    --low-shadow: 0px 0px 12px -2px;
+    --mid-shadow: 0px 0px 14px 0px;
+    --high-shadow: 0px 0px 18px 2px;
+    /* gif/sticker buttons in msg bar */
+    --gif-sticker-buttons: none;
+  }
+
+/* Dark colours */
+.theme-dark {
+    --background-1: #000000;
+    --background-2: #14161a;
+    --border-color: var(--background-2);
+    --hover-color: #22242e81;
+    --hover-color-lighter: #5d607781;
+    --hover-color-darker: #15151b81;
+    --accent-color: var(--green);
+    --white: #f8f8f2;
+    --white-darker: #adbacc;
+    --muted-color: #768da7;
+    --purple: #bd93f9;
+    --light-orange: #f7c38c;
+    --orange: #ffb86c;
+    --light-green: #94ffc1;
+    --green: #51fda7;
+    --light-blue: #cdf5fe;
+    --blue: #68e1fd;
+    --light-red: #ff9999;
+    --red: #ff5555;
+}
+.theme-dark {
+    /* background */
+    --background-primary: var(--background-1);
+    --background-primary-alt: var(--background-1);
+    --background-secondary: var(--background-1);
+    --background-secondary-alt: var(--background-1);
+    --background-tertiary: var(--background-2);
+    --background-1-gradient: var(--background-2);
+    --background-floating: var(--background-2);
+    --background-mentioned: #cca7ff15;
+    --background-mentioned-hover: #cca7ff2a;
+    /* modifiers */
+    --background-modifier-hover: var(--background-1);
+    --background-modifier-active: var(--background-1);
+    --background-modifier-selected: var(--accent-color);
+    --background-modifier-accent: var(--background-1);
+    --background-message-hover: var(--hover-color);
+    /* text */
+    --text-normal: var(--white);
+    --text-secondary: var(--white-darker);
+    --text-positive: var(--white);
+    --text-muted: var(--muted-color);
+    --text-link: var(--blue);
+    --text-dark: var(--background-2);
+    --interactive-selected: var(--text-normal);
+    --interactive-active: var(--text-normal);
+    --interactive-normal: var(--text-normal);
+    --interactive-muted: var(--muted-color);
+    --channels-default: var(--text-secondary);
+    --header-primary: var(--text-normal);
+    --header-secondary: var(--text-muted);
+    /* more */
+    --settings-icon-color: var(--white);
+    --control-brand-foreground: var(--accent-color);
+    --info-warning-foreground: var(--orange);
+    --tab-selected: var(--background-1);
+    --switch: var(--background-2);
+    --activity-card-background: var(--background-2);
+    --brand-experiment: var(--accent-color) !important;
+    /* buttons */
+    --button-background: var(--background-2);
+    --button-background-hover: var(--accent-color);
+    --button-background-active: var(--background-1);
+    --button-accent: var(--accent-color);
+    --button-accent-hover: var(--accent-color);
+    --button-accent-active: var(--background-1);
+    --button-destructive: var(--red);
+    --button-destructive-hover: var(--light-red);
+    --button-destructive-active: var(--red);
+}
+
+/* 
+CONTENTS:
+S01 BACKGROUND
+S02 HOME PAGES
+S03 TOP TOOLBAR
+S04 MAIN CHAT VIEW
+S05 CHANNEL LIST PANEL
+S06 MEMBER LIST PANEL
+S07 USER AREA
+S08 USER PROFILES
+S09 CALL INTERFACE
+S10 SETTINGS
+S11 CONTROLS
+S12 MODALS
+S13 PLUGINS
+S14 ANIMATIONS
+S15 MISC
+*/
+
+
